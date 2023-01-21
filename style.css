@@ -1,0 +1,45 @@
+.container{
+    height: auto;
+    width: auto;
+    margin: 30px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.top-grid-left img{
+    width: 100%;
+    height: 70vh;
+}
+.top-grid-right{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    gap: 20px;
+}
+.top-grid-right img{
+    width: 100%;
+}
+.bottom-grid img{
+    width: 100%;
+}
+.bottom-grid{
+    position: relative;
+}
+#text {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    color: white;
+    bottom: 5%;
+    right: 0%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 51px;
+}
